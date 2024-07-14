@@ -9,9 +9,11 @@ To install Flask and Flask-CORS:
 ```pip install Flask Flask-CORS```
 
 **Endpoints:**
+
 _POST /encrypt_
 * Request Body: JSON object with message (string) and shift (integer).
 * Response: JSON object with result (encrypted message).
+  
 _POST /decrypt_
 * Request Body: JSON object with message (string) and shift (integer).
 * Response: JSON object with result (decrypted message).
